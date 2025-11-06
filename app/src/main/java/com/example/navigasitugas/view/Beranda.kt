@@ -47,9 +47,17 @@ fun Beranda(
             Spacer(modifier = Modifier.height(40.dp))
 
             Image(
-                painter = painterResource(id = R.drawable.ic_launcher_foreground), // Gambar dari drawable
-                contentDescription = "logopam",        // Deskripsi gambar
-                modifier = Modifier.size(180.dp)    // Ukuran gambar 180dp
+                painter = painterResource(id = R.drawable.ic_launcher_foreground),
+                contentDescription = "logopam",
+                modifier = Modifier.size(180.dp)
+            )
+
+            Spacer(modifier = Modifier.height(20.dp))
+
+            Text(
+                text = "Syafrina Metavianida",
+                color = Color(0xFF9575CD),
+                fontSize = 26.sp
             )
 
         }
