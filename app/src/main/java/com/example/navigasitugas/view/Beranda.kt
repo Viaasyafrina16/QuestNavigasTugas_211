@@ -69,13 +69,23 @@ fun Beranda(
             Spacer(modifier = Modifier.height(40.dp))
 
             Button(
-                onClick = onSubmitClick,            // Aksi ketika tombol diklik
+                onClick = onSubmitClick,
                 modifier = Modifier
-                    .fillMaxWidth(0.6f)             // Tombol selebar 60% layar
-                    .height(50.dp),                 // Tinggi 50dp
+                    .fillMaxWidth(0.6f)
+                    .height(50.dp),
                 colors = ButtonDefaults.buttonColors(
-                    co
-
+                    containerColor = Color(0xFF2196F3)
+                )
+            ) {
+                Text(
+                    text = "Submit",
+                    color = Color.White,
+                    fontSize = 18.sp
+                )
+            }
         }
     }
+}
+
+
 
