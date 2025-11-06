@@ -39,10 +39,19 @@ fun Beranda(
 
         Column(
             modifier = Modifier
-                .padding(isiRuang)                 // Terapkan padding Scaffold
+                .padding(isiRuang)
                 .fillMaxSize()
                 .background(Color(0xFFEDE7F6)),
-            horizontalAlignment = Alignment.CenterHorizontally   // Semua elemen diratakan tengah
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.ic_launcher_foreground), // Gambar dari drawable
+                contentDescription = "logopam",        // Deskripsi gambar
+                modifier = Modifier.size(180.dp)    // Ukuran gambar 180dp
+            )
+
+        }
     }
 
