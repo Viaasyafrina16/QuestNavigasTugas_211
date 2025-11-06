@@ -36,5 +36,11 @@ fun Beranda(
             )
         }
     ) { isiRuang ->
-}
+
+        Column(
+            modifier = Modifier
+                .padding(isiRuang)                 // Terapkan padding Scaffold
+                .fillMaxSize()
+                .background(Color(0xFFEDE7F6)),
+    }
 
