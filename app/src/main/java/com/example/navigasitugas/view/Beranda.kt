@@ -45,14 +45,14 @@ fun Beranda(
 
 
         Image(
-            // Ganti 'card_lst_logo' dengan nama file gambar Anda di folder drawable
+
             painter = painterResource(id = R.drawable.logo_pam),
             contentDescription = "Logo_pam",
-            modifier = Modifier.size(200.dp) // Sesuaikan ukuran jika perlu
+            modifier = Modifier.size(200.dp)
         )
 
 
-        Spacer(modifier = Modifier.height(50.dp))
+        Spacer(modifier = Modifier.height(80.dp))
 
 
         Text(
@@ -62,7 +62,7 @@ fun Beranda(
             textAlign = TextAlign.Center
         )
 
-        // Spacer kecil antara nama dan NIM
+
         Spacer(modifier = Modifier.height(8.dp))
 
         // Teks NIM
@@ -81,7 +81,7 @@ fun Beranda(
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(horizontal = 40.dp)
-                .padding(bottom = 40.dp),
+                .padding(bottom = 200.dp),
             shape = RoundedCornerShape(16.dp),
             colors = ButtonDefaults.buttonColors(
                 containerColor = Color(0xFF673AB7)
