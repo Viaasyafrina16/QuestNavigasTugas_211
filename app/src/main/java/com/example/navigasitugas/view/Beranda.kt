@@ -42,5 +42,7 @@ fun Beranda(
                 .padding(isiRuang)                 // Terapkan padding Scaffold
                 .fillMaxSize()
                 .background(Color(0xFFEDE7F6)),
+            horizontalAlignment = Alignment.CenterHorizontally   // Semua elemen diratakan tengah
+        ) {
     }
 
