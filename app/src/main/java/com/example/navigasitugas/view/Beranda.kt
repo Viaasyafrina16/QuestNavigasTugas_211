@@ -1,4 +1,4 @@
-package com.example.navigasitugas.view // Pastikan package ini sesuai dengan proyek Anda
+package com.example.navigasitugas.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -35,9 +35,9 @@ fun Beranda(
 
         Text(
             text = "Selamat Datang",
-            fontSize = 32.sp, // Ukuran font lebih besar
+            fontSize = 32.sp,
             fontWeight = FontWeight.Bold,
-            color = Color(0xFF673AB7) // Warna ungu tua
+            color = Color(0xFF673AB7)
         )
 
 
