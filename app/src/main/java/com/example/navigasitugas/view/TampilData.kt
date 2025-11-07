@@ -27,5 +27,19 @@ fun TampilData(
         Pair("STATUS PERKAWINAN", status),
         Pair("ALAMAT", alamat)
     )
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                title = {
+                    Text(
+                        text = "Data Tersimpan",
+                        color = Color.White
+                    )
+                },
+                colors = TopAppBarDefaults.
+                topAppBarColors(containerColor = Color(0xFF9575CD))
+            )
+        }
+    ) { isiRuang ->
 }
 
