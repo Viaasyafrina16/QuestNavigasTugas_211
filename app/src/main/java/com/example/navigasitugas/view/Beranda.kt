@@ -23,6 +23,7 @@ fun Beranda(
     OnSubmitBtnClick: () -> Unit
 ) {
 
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -35,9 +36,10 @@ fun Beranda(
 
         Text(
             text = "Selamat Datang",
-            fontSize = 32.sp,
-            fontWeight = FontWeight.Bold,
-            color = Color(0xFF673AB7)
+            fontSize = 40.sp,
+            fontWeight = FontWeight.Normal,
+            color = Color(0xFF5E35B1),
+            textAlign = TextAlign.Center
         )
 
 
@@ -57,8 +59,9 @@ fun Beranda(
 
         Text(
             text = "Syafrina Metavianida",
-            fontSize = 20.sp,
-            color = Color(0xFF311B92),
+            fontSize = 22.sp,
+            fontWeight =  FontWeight.SemiBold,
+            color = Color(0xFF4527A0),
             textAlign = TextAlign.Center
         )
 
@@ -69,11 +72,12 @@ fun Beranda(
         Text(
             text = "20230140211",
             fontSize = 16.sp,
-            color = Color(0xFF311B92)
+            fontWeight = FontWeight.Medium,
+            color = Color(0xFF4527A0)
         )
 
 
-        Spacer(modifier = Modifier.weight(0.7f))
+        Spacer(modifier = Modifier.weight(1f))
 
 
         Button(
@@ -82,15 +86,15 @@ fun Beranda(
                 .fillMaxWidth()
                 .padding(horizontal = 40.dp)
                 .padding(bottom = 200.dp),
-            shape = RoundedCornerShape(16.dp),
+            shape = RoundedCornerShape(25.dp),
             colors = ButtonDefaults.buttonColors(
-                containerColor = Color(0xFF673AB7)
+                containerColor = Color(0xFF7E57C2)
             )
         ) {
             Text(
                 text = "Submit",
                 color = Color.White,
-                fontSize = 16.sp,
+                fontSize = 18.sp,
                 modifier = Modifier.padding(vertical = 5.dp)
             )
         }
